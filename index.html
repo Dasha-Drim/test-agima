@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>AWESOME BLOG</title>
+    <link rel="stylesheet" href="./styles/bootstrap.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Rhodium+Libre&family=Roboto+Condensed:wght@700&Plus+Jakarta+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="progress-bar-holder">
+        <div class="progress-bar"></div>
+    </div>
+    <div class="container-fluid position-relative">
+        <div class="row pt-4">
+            <div class="col-12 d-md-none">
+                <div class="m-sidebar-open-btn d-flex position-absolute">
+                    <button aria-label="open"><img src="./icons/sidebar-btn.svg" alt="" /></button>
+                </div>
+                <a class="m-sidebar-logo d-block mb-4">
+                    <img src="./images/main-logo.png" alt="" class="main-logo" />
+                </a>
+            </div>
+                <div class="col-lg-4 pb-4 m-sidebar ">
+                    <div class="m-sidebar-content py-4 position-relative">
+                    	<div class="m-sidebar-btn d-flex position-absolute">
+	                    <button aria-label="close"><img src="./icons/sidebar-btn.svg" alt="" /></button>
+	                </div>
+	                <a class="m-sidebar-logo d-block mb-4">
+	                    <img src="./images/main-logo.png" alt="" class="main-logo" />
+	                </a>
+                        <div class="m-sidebar-menu mb-4">
+                            <div class="m-sidebar-menu-item">
+                                <a href="">☲ <span>Главная</span></a>
+                            </div>
+                            <div class="m-sidebar-menu-item">
+                                <a href="">☳ <span>Блог</span></a>
+                            </div>
+                            <div class="m-sidebar-menu-item">
+                                <a href="">☵ <span>О нас</span></a>
+                            </div>
+                            <div class="m-sidebar-menu-item">
+                                <a href="">☷ <span>Контакты</span></a>
+                            </div>
+                        </div>
+                        <div class="m-sidebar-nav">
+                            <h4 class="mb-4">Содержание статьи</h4>
+                            <ol>
+                                <li class="m-sidebar-nav-item">
+                                    <a to="1" href="" class="active">Описание</a>
+                                </li>
+                                <li class="m-sidebar-nav-item">
+                                    <a to="2" href="">Распространение и экологическое состояние</a>
+                                    <ol class="mt-2" href="">
+                                        <li><a to="2.1" href="">Подраздел 1</a></li>
+                                        <li><a to="2.2" href="">Подраздел 2</a></li>
+                                    </ol>
+                                </li>
+                                <li class="m-sidebar-nav-item">
+                                    <a to="3" href="">Древесина</a>
+                                </li>
+                                <li class="m-sidebar-nav-item">
+                                    <a to="4" href="">Береста</a>
+                                </li>
+                                <li class="m-sidebar-nav-item">
+                                    <a to="5" href="">Берёзовый сок</a>
+                                </li>
+                                <li class="m-sidebar-nav-item">
+                                    <a to="6" href="">Берёза в мифологии</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-4 mt-4 pb-4 d-none d-lg-block sidebar fixed">
+                <div class="sidebar-content p-3 position-relative">
+                    <div class="sidebar-btn d-flex position-absolute">
+                        <button><img src="./icons/sidebar-btn.svg" alt="" /></button>
+                    </div>
+                    <a class="sidebar-logo d-block mb-4">
+                        <img src="./images/main-logo.png" alt="" class="main-logo" />
+                        <img src="./images/logo.png" alt="" class="logo" />
+                    </a>
+                    <div class="sidebar-menu mb-4">
+                        <div class="sidebar-menu-item">
+                            <a href="">☲ <span>Главная</span></a>
+                        </div>
+                        <div class="sidebar-menu-item">
+                            <a href="">☳ <span>Блог</span></a>
+                        </div>
+                        <div class="sidebar-menu-item">
+                            <a href="">☵ <span>О нас</span></a>
+                        </div>
+                        <div class="sidebar-menu-item">
+                            <a href="">☷ <span>Контакты</span></a>
+                        </div>
+                    </div>
+                    <div class="sidebar-nav">
+                        <h4 class="mb-4">Содержание статьи</h4>
+                        <ol>
+                            <li class="sidebar-nav-item">
+                                <a to="1" href="" class="active">Описание</a>
+                            </li>
+                            <li class="sidebar-nav-item">
+                                <a to="2" href="">Распространение и экологическое состояние</a>
+                                <ol class="mt-2" href="">
+                                    <li><a to="2.1" href="">Подраздел 1</a></li>
+                                    <li><a to="2.2" href="">Подраздел 2</a></li>
+                                </ol>
+                            </li>
+                            <li class="sidebar-nav-item">
+                                <a to="3" href="">Древесина</a>
+                            </li>
+                            <li class="sidebar-nav-item">
+                                <a to="4" href="">Береста</a>
+                            </li>
+                            <li class="sidebar-nav-item">
+                                <a to="5" href="">Берёзовый сок</a>
+                            </li>
+                            <li class="sidebar-nav-item">
+                                <a to="6" href="">Берёза в мифологии</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 offset-lg-4 content">
+                <div class="header text-center text-lg-left p-4 p-lg-4 pl-lg-5 position-relative">
+                    <h1 class="m-0">Берёза</h1>
+                    <div class="tablet-logo tablet-button position-absolute d-none d-md-flex d-lg-none">
+                    	<img src="./images/logo.png" alt="" class="logo" />
+                    	<button aria-label="open"><img src="./icons/sidebar-btn.svg" alt="" /></button>
+
+                    </div>
+
+
+
+
+                    <div class="col-7 pb-4 tablet-sidebar text-left">
+                    <div class="tablet-sidebar-content py-3 position-relative">
+                    	<div class="tablet-sidebar-btn d-flex position-absolute">
+	                    <button aria-label="close"><img src="./icons/sidebar-btn.svg" alt="" /></button>
+	                </div>
+	                <a class="tablet-sidebar-logo d-block mb-4">
+	                    <img src="./images/main-logo.png" alt="" class="main-logo" />
+	                </a>
+                        <div class="tablet-sidebar-menu mb-4">
+                            <div class="tablet-sidebar-menu-item">
+                                <a href="">☲ <span>Главная</span></a>
+                            </div>
+                            <div class="tablet-sidebar-menu-item">
+                                <a href="">☳ <span>Блог</span></a>
+                            </div>
+                            <div class="tablet-sidebar-menu-item">
+                                <a href="">☵ <span>О нас</span></a>
+                            </div>
+                            <div class="tablet-sidebar-menu-item">
+                                <a href="">☷ <span>Контакты</span></a>
+                            </div>
+                        </div>
+                        <div class="tablet-sidebar-nav">
+                            <h4 class="mb-4">Содержание статьи</h4>
+                            <ol>
+                                <li class="tablet-sidebar-nav-item">
+                                    <a to="1" href="" class="active">Описание</a>
+                                </li>
+                                <li class="tablet-sidebar-nav-item">
+                                    <a to="2" href="">Распространение и экологическое состояние</a>
+                                    <ol class="mt-2" href="">
+                                        <li><a to="2.1" href="">Подраздел 1</a></li>
+                                        <li><a to="2.2" href="">Подраздел 2</a></li>
+                                    </ol>
+                                </li>
+                                <li class="tablet-sidebar-nav-item">
+                                    <a to="3" href="">Древесина</a>
+                                </li>
+                                <li class="tablet-sidebar-nav-item">
+                                    <a to="4" href="">Береста</a>
+                                </li>
+                                <li class="tablet-sidebar-nav-item">
+                                    <a to="5" href="">Берёзовый сок</a>
+                                </li>
+                                <li class="tablet-sidebar-nav-item">
+                                    <a to="6" href="">Берёза в мифологии</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                </div>
+                <div class="image mt-3 position-relative">
+                    <div class="col-12 col-sm-6 col-lg-4 offset-sm-1 term p-3 position-absolute">
+                        <h5 class="m-0">О чем статья?</h5>
+                        <p class="m-0">Береза: описание, назначение и свойства древесины</p>
+                    </div>
+                </div>
+                <div class="article mt-5 position-relative">
+                    <div>
+                        <h2 key="1" class="mb-4">Описание</h2>
+                        <p key="1.1" class="mb-4">Берёза — род листопадных деревьев и кустарников семейства Берёзовые. Берёза широко распространена в Северном полушарии; на территории России принадлежит к числу наиболее распространённых древесных пород. Общее число видов — около ста или немного больше. Многие виды берёзы — широко распространённые и важнейшие лесообразующие породы, в значительной мере определяющие облик и видовой состав лиственных и хвойно-лиственных (смешанных) лесов в умеренной и холодной части Евразии и Северной Америки. <br /> Многие части берёзы используются в хозяйстве: древесина, кора, берёста (поверхностный слой коры), берёзовый сок. Почки и листья применяют в медицине: настои из почек и листьев — как мочегонное, бактерицидное, ранозаживляющее и жаропонижающее средство, а масляную вытяжку из берёзовых почек — как дерматологическое средство. Некоторые виды используют для создания полезащитных полос, а также в декоративном садоводстве. <br />Берёза занимает важное место в культуре славян, скандинавов, финно-угорских и других народов.</p>
+                    </div>
+                    <div>
+                        <h2 key="2" class="mb-4">Распространение и экологическое состояние</h2>
+                        <p class="mb-4" key="2.1">Большинство берёз очень морозостойки, не страдают от весенних заморозков, переносят вечную мерзлоту, проникают далеко за Полярный круг или образуют верхнюю границу леса в горах (например, берёзовое криволесье на Кавказе). Более требовательны к теплу берёзы субтропических районов (гималайско-китайские, некоторые японские и американская Берёза речная. Самый южный и теплолюбивый вид берёзы на нашей планете — Берёза ольховидная, заходящая в горные районы муссонных тропиков Юго-Восточной Азии <br />К богатству почвы берёза не требовательна. Виды берёзы растут на песчаных и суглинистых, богатых и бедных, влажных и сухих почвах. Она встречается на сырых берегах рек и морей, на болотах, в болотистых тундрах, на сухих каменистых склонах, в знойных сухих степях. Так, например, Берёза Радде (Betula raddeana) образует леса, покрывающие ущелья в горно-лесном поясе в горах Дагестана</p>
+                        <p key="2.2">Продолжительность жизни берёзы, по разным данным, — 100—120 лет, 150 (300) лет, 100—150 лет, отдельные деревья доживают до 400 лет и более <br /> На берёзе живут, помимо прочих, гусеница бражника липового, пяденица берёзовая, малинница обыкновенная[источник не указан 801 день]. Жук-олень — самый крупный жук Европы[источник не указан 801 день] — обитает в древесине берёзы и других лиственных деревьев. Листьями берёзы питаются майские жуки, и в отдельные годы, когда их численность особенно высока, они способны причинить серьёзный вред деревьям. <br />Для берёзовых рощ и смешанных с берёзой лесов характерны микоризообразующие виды грибов, многие из которых живут в сообществе исключительно или преимущественно с берёзой. </p>
+                    </div>
+                    <div>
+                        <h2 key="3" class="mb-4">Древесина</h2>
+                        <p key="3.1" class="mb-4">Берёзу рубят в возрасте спелости древесины, — от 40—50 лет. Раньше для получения крупного хорошего поделочного материала берёза срубалась в 60—80 и даже иногда в 100-летнем возрасте; на дрова она пригодна в 40—60 лет. На постройки берёза мало годится, так как скоро загнивает из-за развития грибка. <br />Тяжёлая плотная берёзовая древесина довольно прочная, хорошо сопротивляется раскалыванию. Цвет — белый, с более жёлтым ядром. Используется для изготовления высококачественной фанеры, лыж, мелких резных игрушек, прикладов огнестрельного оружия. Особенно ценится карельская берёза, которая отличается очень сложной фактурой древесины. <br />Наросты, изредка образующиеся на корнях, крупных сучьях или стволах берёз, — кап — на разрезе имеют своеобразный сложный и красивый рисунок. Обработанный кап издавна использовали для изготовления изящных поделок: шкатулок, табакерок, портсигаров, декоративных деталей мебели</p>
+                    </div>
+                    <div>
+                        <h2 key="4" class="mb-4">Береста</h2>
+                        <p key="4.1" class="mb-4">Верхний слой коры берёзы имеет собственное название — берёста, или береста́ (допустимы оба варианта написания и произношения). Благодаря присутствию смолистых веществ берёста отличается чрезвычайной прочностью и долговечностью. Берёста издавна применялась в промыслах народов Северной и Восточной Европы для изготовления таких предметов быта, как туесков, корзин, коробок, ковшей, лукошек и другой кухонной утвари, а также простейшей обуви (лапти)[источник не указан 801 день]. Народы Крайнего Севера и Дальнего Востока, а также многие североамериканские индейцы использовали берёсту для изготовления лодок и сооружения жилищ — чумов, вигвамов и т. д. <br />Берестяная книга "Стихосложение", изготовленная енисейским старообрядцем А. Г. Мурачёвым в 1991 в подарок Н. Н. Покровскому. <br />Береста широко использовалась и в качестве материала для письма в древности. Берёста прекрасно сохраняется в речных наносах, торфяниках, благодаря чему в 1951 году экспедицией А. В. Арциховского были обнаружены первые берестяные грамоты — в Новгороде, где ко второму кварталу 2016 года их раскопали 1079. Кроме того, они были найдены во многих других российских городах, в том числе на территории Москвы, а также на Украине и в Беларуси. Помимо текстов на древнерусском языке, среди обнаруженных грамот есть и пять на неславянских языках (например, грамота № 292, содержащая карелоязычный заговор против молнии). Известно также множество древних китайских и санскритских текстов на берёсте. Енисейские старообрядцы сохранили секреты изготовления письменных материалов из бересты и используют её до сих пор. <br />В прежние времена берёсту употребляли в качестве средства от малярии.</p>
+                    </div>
+                    <div>
+                        <h2 key="5" class="mb-4">Берёзовый сок</h2>
+                        <p key="5.1" class="mb-4">Берёзы к концу вегетативного периода накапливают питательные вещества, в том числе сахара́. Весной, с началом сокодвижения (до распускания листьев), эти вещества начинают подниматься к листьям. <br />Если на стволе сделать в это время надрезы, из них будет вытекать значительное количество сока (пасоки — жидкости, выделяющейся из перерезанных сосудов древесины стеблей или корней живых растений под влиянием корневого давления), содержащего от 0,43 до 1,13 % сахара. Явление вытекания наблюдается вслед за первыми оттепелями; в первые дни вытекание незначительно, но затем постепенно возрастает и, достигнув через некоторое время максимума, начинает постепенно убывать, а ко времени распускания почек совершенно прекращается. Длительность вытекания сока — несколько недель. <br />Сбор берёзового сока истощает дерево, к тому же через раны на коре в живые ткани могут проникнуть болезнетворные микроорганизмы, дерево может заболеть и в конце концов погибнуть. В связи с этим после сбора сока рекомендуется повреждения на коре замазывать варом или глиной. <br />Берёзовый сок идёт на приготовление разных напитков. Крупная берёза может дать в сутки больше одного ведра сока. Сок иногда консервируют, подкисляя фосфорной кислотой. Упаренный берёзовый сок применяют для весенней подкормки пчёл.</p>
+                    </div>
+                    <div>
+                        <h2 key="6" class="mb-4">Берёза в мифологии</h2>
+                        <p key="6.1" class="mb-4">Дохристианская символика, связанная с берёзой, известна у многих народов, проживавших в регионах распространения этого растения; это относится и к кельтам, и к древним скандинавам, и к славянам. Для всех этих народов берёза являлась в первую очередь символом перехода от весны к лету и, в более широком смысле, символом смерти и воскрешения<br />В представлениях славян отношение к берёзе было двойственным: согласно одним традициям, дерево и изделия из него, в том числе из берёсты, считались оберегом от нечистой силы; в частности, берёзовые веники, использовавшиеся в бане, рассматривались и как инструменты ритуального очищения. С другой же стороны, берёза считалась нечистым деревом, в ветвях которого поселяются черти и русалки, и которое является воплощением душ умерших родственников; берёза также считалась деревом, из которого нечистая сила делает свои инструменты — к примеру, ведьмы, согласно поверьям, летают на берёзовых мётлах.<br />В представлениях русских берёза представало как дерево, приносящее добро и оберегающее от нечисти и болезней. Именно поэтому она издавна являлась почитаемым деревом. Кроме того, берёза символизировало женское начало, и покровительствовала девушкам и молодым женщинам. Также в русских поверьях присутствовала связь берёзы с душами предков. <br />В русской крестьянской поэзии очень распространён образ берёзы, ассоциируемый с образом выходящей замуж невесты (парным персонажем, женихом, является дуб). Как персонаж (порой антропоморфный), берёза фигурирует и в русских народных сказках. Так, в сказке «Дурак и берёза» главный герой пытается продать быка своих братьев берёзе (дураку кажется, что шелестящая листьями на ветру берёза будто бы разговаривает с ним), но, после безуспешного торга о цене, привязывает быка к ней и откладывает сделку на завтра. На следующий день, когда быка съели волки, дурак безуспешно пытается выбить долг у берёзы, и в конце концов, на третий день рубит её, находя в дупле котёл с золотом. Также берёза является одним из немаловажных персонажей в сказке «Берёза и три сокола».</p>
+                    </div>
+                </div>
+                <div class="recommendation my-4 mb-5">
+                    <h2 class="mb-4">Рекомендованные статьи</h2>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-slide-image position-relative mb-3"></div>
+                                <h2 class="mb-3 swiper-slide-header">Рекомендованные статьи</h2>
+                                <p class="swiper-slide-description">Берёза — род листопадных деревьев и кустарников семейства Берёзовые. Берёза широко распространена в Северном полушарии; на территории России принадлежит к числу наиболее распространённых древесных пород. Общее число видов — около ста или немного больше.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide-image position-relative mb-3"></div>
+                                <h2 class="mb-3 swiper-slide-header">Рекомендованные статьи</h2>
+                                <p class="swiper-slide-description">Берёза — род листопадных деревьев и кустарников семейства Берёзовые. Берёза широко распространена в Северном полушарии; на территории России принадлежит к числу наиболее распространённых древесных пород. Общее число видов — около ста или немного больше.</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide-image position-relative mb-3"></div>
+                                <h2 class="mb-3 swiper-slide-header">Рекомендованные статьи</h2>
+                                <p class="swiper-slide-description">Берёза — род листопадных деревьев и кустарников семейства Берёзовые. Берёза широко распространена в Северном полушарии; на территории России принадлежит к числу наиболее распространённых древесных пород. Общее число видов — около ста или немного больше.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-button-custom swiper-button-custom-prev position-absolute ml-3">
+                            <img src="./icons/icon.svg" alt="" />
+                        </div>
+                        <div class="swiper-button-custom swiper-button-custom-next position-absolute mr-3">
+                            <img src="./icons/icon.svg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="row mx-2 mx-lg-5 pb-5">
+            <div class="col-12 mb-5 mb-sm-0 col-sm-6 p-0 footer-info text-center text-sm-left">
+                <img src="./images/main-logo.png" alt="" class="footer-info-logo mb-4" />
+                <p class="mb-4">Our vision is to provide convenience<br /> and help increase your sales business.</p>
+                <div class="footer-info-socials">
+                    <a href="#" class="mr-2"><img src="./icons/facebook.svg" alt="" /></a>
+                    <a href="#" class="mr-2"><img src="./icons/twitter.svg" alt="" /></a>
+                    <a href="#"><img src="./icons/instagram.svg" alt="" /></a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-3 col-lg-2 p-0 footer-about">
+                <h3 class="mb-5">About</h3>
+                <a href="#" class="d-block mb-4">How it works</a>
+                <a href="#" class="d-block mb-4">Featured</a>
+                <a href="#" class="d-block mb-4">Partnership</a>
+                <a href="#" class="d-block">Bussiness Relation</a>
+            </div>
+            <div class="col-6 col-sm-3 col-lg-2 p-0 footer-community">
+                <h3 class="mb-5">Community</h3>
+                <a href="#" class="d-block mb-4">Events</a>
+                <a href="#" class="d-block mb-4">Blog</a>
+                <a href="#" class="d-block mb-4">Podcast</a>
+                <a href="#" class="d-block">Invite a friend</a>
+            </div>
+            <div class="col-lg-2 d-none d-lg-block p-0 footer-socials">
+                <h3 class="mb-5">Socials</h3>
+                <a href="#" class="d-block mb-4">Discord</a>
+                <a href="#" class="d-block mb-4">Instagram</a>
+                <a href="#" class="d-block mb-4">Twitter</a>
+                <a href="#" class="d-block">Facebook</a>
+            </div>
+        </div>
+        <div class="row mx-2 mx-lg-5 pt-5 footer-under-content text-center text-sm-left">
+            <div class="col-12 col-sm-6 p-0 mb-3 mb-sm-0">
+                <span>©2024 Company Name. All rights reserved</span>
+            </div>
+            <div class="col-12 col-sm-6 p-0 d-flex justify-content-center justify-content-sm-center">
+                <a href="/" class="mr-5">Privacy & Policy</a>
+                <a href="/">Terms & Condition</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
